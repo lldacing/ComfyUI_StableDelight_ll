@@ -1,4 +1,4 @@
-[English](README_EN.md)
+[中文文档](README.md)
 
 StableDelight is a cutting-edge solution for specular reflection removal from textured surfaces.
 

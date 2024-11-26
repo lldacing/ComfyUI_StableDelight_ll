@@ -1,4 +1,4 @@
-[中文文档](README.md)
+[ENGLISH](README_EN.md)
 
 StableDelight 是一种从纹理表面去除镜面反射的尖端解决方案。
 
