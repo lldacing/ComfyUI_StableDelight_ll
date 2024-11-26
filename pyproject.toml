@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_stabledelight_ll"
+description = "StableDelight: Revealing Hidden Textures by Removing Specular Reflections(移除纹理表面镜面反射)"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy"]
+
+[project.urls]
+Repository = "https://github.com/lldacing/ComfyUI_StableDelight_ll"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "lldacing"
+DisplayName = "ComfyUI_StableDelight_ll"
+Icon = ""
