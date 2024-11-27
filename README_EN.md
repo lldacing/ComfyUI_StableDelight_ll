@@ -26,7 +26,7 @@ Suggest using huggingface-cli to download
 # Start the command line in the ComfyUI/models/diffusers directory and execute the following command
 huggingface-cli download Stable-X/yoso-delight-v0-4-base --local-dir Stable-X--yoso-delight-v0-4-base
 ```
-目录结构如下：
+The directory structure is as follows:
 ```
 ComfyUI
   └─models
