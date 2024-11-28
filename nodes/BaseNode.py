@@ -28,7 +28,6 @@ class LoadStableDelightModel:
     RETURN_NAMES = ("model",)
     FUNCTION = "load_model"
     CATEGORY = "stableX/delight"
-    DESCRIPTION = "Load BEN model from folder models/rembg/ben or the path of ben configured in the extra YAML file"
 
     def load_model(self, model, device):
         for search_path in folder_paths.get_folder_paths("diffusers"):
