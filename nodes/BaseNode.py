@@ -43,8 +43,8 @@ class LoadStableDelightModel:
             device_type = "cpu"
         # Stable-X/yoso-delight-v0-4-base
         pipe = YosoDelightPipeline.from_pretrained(model,
-                                                   cache_dir=folder_paths.get_folder_paths("diffusers")[0],
                                                    safety_checker=None,
+                                                   requires_safety_checker=False,
                                                    variant="fp16",
                                                    torch_dtype=torch.float16 if device_type == "cuda" else None,
                                                    t_start=0,
